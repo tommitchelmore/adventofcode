@@ -2,6 +2,10 @@
 # 🎄 Advent of Code
 Advent of Code solutions in Java by`@tommitchelmore` [Website](https://tommitchelmore.com) | [LinkedIn](https://www.linkedin.com/in/tommitchelmore/) | [Stack Overflow](https://stackoverflow.com/users/8671742/tom-mitchelmore)
 
+![GitHub](https://img.shields.io/github/license/tommitchelmore/adventofcode?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/tommitchelmore/adventofcode?style=flat-square)
+![GitHub top language](https://img.shields.io/github/languages/top/tommitchelmore/adventofcode?style=flat-square)
+
 Hello!  This is my repository for the Advent of Code yearly programming challenge that I am completing, for the first time, in 2020.  All of my solutions are available here and are built with the intent to expand upon the knowledge I'm gaining while completing my degree.  I've also used Java Reflection to build a mini framework to handle running each of the challenges as I complete them.
 
 ## 🎅 What is Advent of Code?
