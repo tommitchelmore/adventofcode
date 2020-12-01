@@ -3,7 +3,9 @@ package com.tommitchelmore.adventofcode.year2020.days;
 import static java.lang.Integer.parseInt;
 
 import com.tommitchelmore.adventofcode.common.Day;
+import com.tommitchelmore.adventofcode.year2020.util.InputFileManager;
 import java.io.BufferedReader;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -49,11 +51,12 @@ public class Day1 implements Day {
 
   private ArrayList<Integer> getList() throws IOException {
 
-    BufferedReader bufferedReader = new BufferedReader(new FileReader("inputs/2020/day_1.txt"));
+    BufferedReader br = new InputFileManager().getInputFile(1);
+
     ArrayList<Integer> list = new ArrayList<>();
     String line;
 
-    while ((line = bufferedReader.readLine()) != null) {
+    while ((line = br.readLine()) != null) {
       list.add(parseInt(line));
     }
 
