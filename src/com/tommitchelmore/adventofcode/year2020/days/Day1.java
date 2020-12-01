@@ -48,6 +48,7 @@ public class Day1 implements Day {
   }
 
   private ArrayList<Integer> getList() throws IOException {
+
     BufferedReader bufferedReader = new BufferedReader(new FileReader("inputs/2020/day_1.txt"));
     ArrayList<Integer> list = new ArrayList<>();
     String line;

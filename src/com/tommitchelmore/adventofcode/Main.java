@@ -6,12 +6,13 @@ import java.lang.reflect.InvocationTargetException;
 
 public class Main {
   public static void main(String[] args)
-      throws IOException, ClassNotFoundException, NoSuchMethodException, IllegalAccessException,
+      throws IOException, NoSuchMethodException, IllegalAccessException,
           InvocationTargetException, InstantiationException {
 
     for (int day = 1; day <= 25; day++) {
 
       try {
+
         Day instance = (Day) Class
             .forName("com.tommitchelmore.adventofcode.year2020.days.Day" + day)
             .getDeclaredConstructor()
