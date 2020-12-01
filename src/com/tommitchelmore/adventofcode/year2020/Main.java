@@ -1,4 +1,4 @@
-package com.tommitchelmore.adventofcode;
+package com.tommitchelmore.adventofcode.year2020;
 
 import com.tommitchelmore.adventofcode.common.Day;
 import java.io.IOException;

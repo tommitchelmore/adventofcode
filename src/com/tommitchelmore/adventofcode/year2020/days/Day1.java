@@ -3,10 +3,8 @@ package com.tommitchelmore.adventofcode.year2020.days;
 import static java.lang.Integer.parseInt;
 
 import com.tommitchelmore.adventofcode.common.Day;
-import com.tommitchelmore.adventofcode.year2020.util.InputFileManager;
+import com.tommitchelmore.adventofcode.common.InputFileManager;
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.concurrent.atomic.AtomicInteger;

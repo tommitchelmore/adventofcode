@@ -1,4 +1,4 @@
-package com.tommitchelmore.adventofcode.year2020.util;
+package com.tommitchelmore.adventofcode.common;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -8,7 +8,16 @@ import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
 
+/** The type Input file manager. */
 public class InputFileManager {
+
+  /**
+   * Gets the input text from the AdventOfCode website
+   *
+   * @param day the day to fetch
+   * @return input.txt for the given day as a BufferedReader
+   * @throws IOException IOException
+   */
   public BufferedReader getInputFile(int day) throws IOException {
 
     String sessionId = getSessionId();
@@ -21,6 +30,13 @@ public class InputFileManager {
 
   }
 
+  /**
+   * Gets the input text from a given .txt file
+   *
+   * @param fileName the file name
+   * @return the input file as a BufferedReader
+   * @throws FileNotFoundException FileNotFoundException
+   */
   public BufferedReader getInputFile(String fileName) throws FileNotFoundException {
 
     return new BufferedReader(new FileReader(fileName));
