@@ -21,7 +21,10 @@ To save your vacation, you need to get all fifty stars by December 25th.
 Collect stars by solving puzzles. Two puzzles will be made available on each day in the Advent calendar; the second puzzle is unlocked when you complete the first. Each puzzle grants one star. Good luck!
 
 ## 🌟 2020 Progress
+When running 2020's Main method, if it's December, it will get the day of the month and run the correct test.  Any other month and all days will be run.
+Arguments `all` or a number (e.g. `10`) can be passed to run all days or a specific day respectfully.
 
-| Day  | Part One | Part Two | 
-|---|:---:|:---:|
-| ✅ [Day 1: Report Repair](https://github.com/tommitchelmore/adventofcode/blob/main/src/com/tommitchelmore/adventofcode/year2020/days/Day1.java)| 🌟 | 🌟 |
+| Day | Part One | Part Two | 
+|-----|:--------:|:--------:|
+| ✅ [Day 1: Report Repair](https://github.com/tommitchelmore/adventofcode/blob/main/src/com/tommitchelmore/adventofcode/year2020/days/Day1.java) | 🌟 858496 | 🌟 263819430 |
+| ✅ [Day 2: Password Philosophy](https://github.com/tommitchelmore/adventofcode/blob/main/src/com/tommitchelmore/adventofcode/year2020/days/Day2.java) | 🌟 506    | 🌟 443       |
