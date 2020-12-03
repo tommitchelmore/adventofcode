@@ -27,5 +27,5 @@ Arguments `all` or a number (e.g. `10`) can be passed to run all days or a speci
 | Day | Part One | Part Two | 
 |-----|:--------:|:--------:|
 | ✅ [Day 1: Report Repair](https://github.com/tommitchelmore/adventofcode/blob/main/src/com/tommitchelmore/adventofcode/year2020/days/Day1.java) | 🌟 858496 | 🌟 263819430 |
-| ✅ [Day 2: Password Philosophyadve](https://github.com/tommitchelmore/adventofcode/blob/main/src/com/tommitchelmore/adventofcode/year2020/days/Day2.java) | 🌟 506    | 🌟 443       |
+| ✅ [Day 2: Password Philosophy](https://github.com/tommitchelmore/adventofcode/blob/main/src/com/tommitchelmore/adventofcode/year2020/days/Day2.java) | 🌟 506    | 🌟 443       |
 | ✅ [Day 3: Toboggan Trajectory](https://github.com/tommitchelmore/adventofcode/blob/main/src/com/tommitchelmore/adventofcode/year2020/days/Day3.java) | 🌟 184    | 🌟 2431272960       |
